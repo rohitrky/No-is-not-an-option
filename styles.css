@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: 
+      /* linear-gradient(to bottom, rgb(225, 122, 225), rgb(122, 225, 225)),  */
+      url(https://img.freepik.com/free-vector/hand-drawn-minimal-background_23-2149007819.jpg?w=1380&t=st=1714463491~exp=1714464091~hmac=49ab9cde6d4875228a85930daf719573adca84bf5c10fc686ed147458d4604ec);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+  }
+
+
+  
+.container {
+    text-align: center;
+
+}
+
+#noButton {
+    position: relative;
+    transition: 0.5s ease-in-out;
+    justify-self: end;
+}
+
+
+
+.header_text {
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(154, 86, 163);
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    
+
+   
+}
+
+.btn {
+    background-color: #548099;
+    color: #fddbd1;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+
+@media {
+    
+}
