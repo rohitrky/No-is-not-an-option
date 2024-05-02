@@ -7,7 +7,8 @@ body {
     height: 100vh;
     background-image: 
       /* linear-gradient(to bottom, rgb(225, 122, 225), rgb(122, 225, 225)),  */
-      url(https://img.freepik.com/free-vector/hand-drawn-minimal-background_23-2149007819.jpg?w=1380&t=st=1714463491~exp=1714464091~hmac=49ab9cde6d4875228a85930daf719573adca84bf5c10fc686ed147458d4604ec);
+      url(./content/hearts\ bg.gif);
+      /* url(https://i.pinimg.com/564x/c0/79/fc/c079fc1edc20e2b78a02387be3c01177.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -60,8 +61,13 @@ body {
 
 
 @media (max-width: 768px){
+
+    body{
+        background-size: auto;
+    }
+
     .header_text{
-        font-size: 80px;
+        font-size: 100px;
     }
 
     .btn {
